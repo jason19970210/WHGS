@@ -28,15 +28,15 @@ void setup(){
   sensorValue4 = analogRead(sensorPin4);
   sensorValue5 = analogRead(sensorPin5);
   
-  Serial.print(" ");
+  Serial.print("V");
   Serial.print(analogRead(sensorPin1));
-  Serial.print("  ");
+  Serial.print(",");
   Serial.print(analogRead(sensorPin2));
-  Serial.print("  ");
+  Serial.print(",");
   Serial.print(analogRead(sensorPin3));
-  Serial.print("  ");
+  Serial.print(",");
   Serial.print(analogRead(sensorPin4));
-  Serial.print("  ");
+  Serial.print(",");
   Serial.print(analogRead(sensorPin5));
   Serial.println();
 
@@ -53,15 +53,15 @@ void loop(){
   sensorValue44 = analogRead(sensorPin4);
   sensorValue55 = analogRead(sensorPin5);
 
-  Serial.print(" ");
+  Serial.print("V");
   Serial.print(sensorValue11 - sensorValue1);
-  Serial.print("  ");
+  Serial.print(",");
   Serial.print(sensorValue22 - sensorValue2);
-  Serial.print("  ");
+  Serial.print(",");
   Serial.print(sensorValue33 - sensorValue3);
-  Serial.print("  ");
+  Serial.print(",");
   Serial.print(sensorValue44 - sensorValue4);
-  Serial.print("  ");
+  Serial.print(",");
   Serial.print(sensorValue55 - sensorValue5);
   Serial.println();
 
