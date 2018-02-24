@@ -27,7 +27,8 @@ void setup(){
   sensorValue3 = analogRead(sensorPin3);
   sensorValue4 = analogRead(sensorPin4);
   sensorValue5 = analogRead(sensorPin5);
-  
+
+  /*
   Serial.print("V");
   Serial.print(analogRead(sensorPin1));
   Serial.print(",");
@@ -43,6 +44,7 @@ void setup(){
   Serial.print("Initializing");
   Serial.println();
   delay(500);
+  */
 }
 
 void loop(){
